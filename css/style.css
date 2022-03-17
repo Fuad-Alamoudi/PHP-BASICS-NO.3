@@ -1,21 +1,18 @@
 body {
-    background-color: #3867d6;
+    background-color: #fff;
 }
-.container {
-    background-color: #4b7bec;
-    border-radius: 4px;
-    margin-bottom: 1.5rem!important;
-    margin-top: 3rem!important;
-    max-width: 1140px;
-}
+
 .product_wrapper {
 	float:left;
 	padding: 10px;
 	text-align: center;
+    border: 1px solid #aaa;
+    margin: 5px;
 	}
 .product_wrapper:hover {
-	box-shadow: 0 0 0 2px #e5e5e5;
+	box-shadow: 0 0 0 2px #e23;
 	cursor:pointer;
+    background-color: #aaa;
 	}
 .product_wrapper .name {
 	font-weight:bold;
@@ -78,7 +75,7 @@ body {
 	text-decoration:underline;
 	}
 
-body{
+/* body{
     background-color: #3867d6;
     font-family: "Nunito Sans";
 
@@ -119,4 +116,4 @@ img:hover{
     .container{
         max-width: 90%;
     }
-}
+} */
